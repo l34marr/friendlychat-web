@@ -18,7 +18,7 @@
 // Signs-in Friendly Chat.
 function signIn() {
   // TODO 1: Sign in Firebase with credential from the Google user.
-  var provider = new firebase.auth.GoogleAuthProvider();
+  var provider = new firebase.auth.FacebookAuthProvider();
   firebase.auth().signInWithPopup(provider);
 }
 
